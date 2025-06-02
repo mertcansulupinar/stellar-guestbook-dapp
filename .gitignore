@@ -77,3 +77,6 @@ Cargo.lock
 
 # Turbo
 .turbo
+
+# Local Netlify folder
+.netlify

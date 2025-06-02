@@ -310,7 +310,15 @@ function parseContractResult(result: xdr.ScVal): GuestbookEntry[] {
       });
 
       //console.log(`✅ Successfully parsed ${parsedEntries.length} entries from contract`);
-      return parsedEntries;
+
+      // Sort entries by timestamp (newest first)
+      const sortedEntries = parsedEntries.sort((a, b) => {
+        const timestampA = typeof a.timestamp === 'number' ? a.timestamp : Number(a.timestamp);
+        const timestampB = typeof b.timestamp === 'number' ? b.timestamp : Number(b.timestamp);
+        return timestampB - timestampA; // Newest first
+      });
+
+      return sortedEntries;
     }
 
     //console.warn("⚠️ Contract result is not an array, using fallback data");

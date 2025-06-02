@@ -91,7 +91,7 @@ Before running the project, make sure you have the following tools installed on 
 
 ## 🌐 Live Demo
 
-🚀 **[Visit Live Application](https://stellar-guestbook-dapp.vercel.app/)**
+🚀 **[Visit Live Application](https://gb.mertcansulupinar.com)**
 
 ### Contract Information
 
@@ -313,9 +313,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If this project helped you, please give it a ⭐ on GitHub!
 
+## 📸 Screenshots
+
+### Wallet Connected State
+
+![Wallet Connected](guestbook-dapp-3.jpeg)
+
+### Message Submission Interface
+
+![Message Submission](guestbook-dapp-4.jpeg)
+
 ## 📞 Contact
 
-- **Developer**: Mert Can Şulupınar
+- **Developer**: Mert Can SULUPINAR
+- **Website**: [https://mertcansulupinar.com/](https://mertcansulupinar.com/)
 - **GitHub**: [@mertcansulupinar](https://github.com/mertcansulupinar)
 - **Project Link**: [https://github.com/mertcansulupinar/stellar-guestbook-dapp](https://github.com/mertcansulupinar/stellar-guestbook-dapp)
 
