@@ -113,39 +113,25 @@ npm start
 
 ### 🚀 Deployment
 
-#### Deploy with Vercel (Recommended)
+#### Deploy with Netlify (Recommended)
 
-1. **Connect your GitHub repo to Vercel**
+1. **Connect your GitHub repo to Netlify**
 
-   - Go to [vercel.com](https://vercel.com)
+   - Go to [netlify.com](https://netlify.com)
    - Sign in with your GitHub account
-   - Click "New Project"
-   - Select your repo
+   - Click "New site from Git"
+   - Select your GitHub repo
 
 2. **Deploy settings**
 
-   - Framework Preset: **Next.js**
-   - Root Directory: **/**
    - Build Command: `npm run build`
-   - Output Directory: `.next`
+   - Publish Directory: `.next`
+   - Framework: **Next.js**
 
 3. **Deploy**
-   - Click "Deploy" button
-   - Automatically deploys
-
-#### Deploy with Netlify
-
-1. **Prepare build folder**
-
-   ```bash
-   npm run build
-   npm run export
-   ```
-
-2. **Create new site on Netlify**
-   - Go to [netlify.com](https://netlify.com)
-   - Click "New site from Git"
-   - Select your GitHub repo
+   - Click "Deploy site" button
+   - Automatically builds and deploys
+   - Get your live URL instantly
 
 #### Deploy with Docker
 
